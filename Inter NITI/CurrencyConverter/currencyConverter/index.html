@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>Currency Converter</header>
+        <form action="#">
+            <div class="amount">
+                <p>Enter</p>
+                <input type="text" value="1">
+            </div>
+            <div class="drop-list">
+                <div class="form">
+                    <p>From</p>
+                    <div class="select-box">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/255px-Flag_of_India.svg.png" alt="">
+                        <select>
+                           <option value="USD"></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="icon"><i class="fas fa-excahnge-alt"></i></div>
+                <div class="to">
+                     <p>To</p>
+                    <div class="select-box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Flag_of_Nepal_%28white_background%2C_aspect_ratio_3-2%29.svg/220px-Flag_of_Nepal_%28white_background%2C_aspect_ratio_3-2%29.svg.png"  alt="">
+                       <select>
+
+                       </select>
+                    </div>
+                </div>
+            </div>
+           <div class="exchange-range">1 INR = 1.60 NPR</div>
+           <button>Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    <script src="country-list.js"></script>
+</body>
+</html>
